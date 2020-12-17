@@ -1,0 +1,280 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.logo {
+  padding: 15px 0;
+}
+.logo img {
+  width: 100px;
+}
+header a {
+  text-decoration: none;
+  padding: 15px 15px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner {
+  padding: 30px 0;
+  background-image: url(./Assets/Images/studio.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 300px;
+  width: 100%;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.banner > .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 40px;
+}
+.banner h1 + p {
+  font-size: 20px;
+}
+
+.work {
+  background-color: #f7f7f7;
+  padding: 116px 0;
+}
+
+.work-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.work-area h2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  font-size: 28px;
+  font-weight: 900;
+}
+.work-area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.work-area ul li {
+  margin: 0 20px 0 0;
+}
+.work-area ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fbfbfb;
+  width: 200px;
+  height: 185px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.work-area ul li a img {
+  width: 160px;
+  height: 170px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+footer {
+  padding: 140px 0 50px;
+  background-image: url(./Assets/Images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 300px;
+  width: 100%;
+}
+.footer-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  height: auto;
+}
+.footer-area h2 {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 10px 0 25px 0;
+}
+.footer-area input, .footer-area textarea {
+  height: 25px;
+  width: auto;
+  padding: 5px 0 10px 10px;
+  margin-bottom: 20px;
+}
+.footer-area textarea {
+  height: 100px;
+  width: auto;
+  padding: 20px 0 20px 10px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.footer-area button {
+  width: 75px;
+  height: 30px;
+  background-color: #000;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #F9D342;
+
+.footer-area p {
+  font-size: 42px;
+  font-weight: 800;
+}
+.garis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-area .contact p::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 1px solid #000;
+}
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 0 25px 0;
+}
+.copyright p, .copyright i {
+  font-size: 22px;
+  padding: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.copy-left {
+  padding: 15px 0;
+}
+
+.copy-left img {
+  width: 70px;
+}
+
+.copy-contact p, i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-btn {
+  font-weight: 700;
+  font-size: 18px;
+  border: transparent;
+  outline: transparent;
+  color: #000;
+  background: transparent;
+}
+.dropdown:hover .dropdown-bg {
+  display: block;
+}
+.dropdown-bg {
+  display: none;
+}
+.dropdown-bg img {
+  width: 30px;
+  height: auto;
+  margin: 0 0 -15px 10px;
+}
+.dropdown-isi {
+  background: #000;
+  border-radius: 5px;
+  width: 140px;
+  height: auto;
+  padding: 10px 0 10px 0;
+  position: absolute;
+  text-align: left;
+  margin: 0 0 0 -40px;
+}
+.dropdown-isi ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px 0 5px 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dropdown-isi ul li {
+  margin: 5px 0;
+}
+.dropdown-isi ul li a:hover {
+  color: #F9D342;
+}
+.dropdown-isi ul li a {
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
